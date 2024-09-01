@@ -1,126 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume - Sai Rohan Velpula</title>
+    <title>Velpula Sai Rohan - Resume</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
             margin: 0;
-            padding: 20px;
+            padding: 0;
             background-color: #f4f4f4;
+            color: #333;
         }
 
         .container {
-            max-width: 800px;
-            margin: auto;
-            background: #fff;
+            width: 80%;
+            margin: 0 auto;
             padding: 20px;
+            background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        h1 {
-            font-size: 2em;
+        h1, h2, h3 {
             color: #2c3e50;
-            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
             margin-bottom: 10px;
         }
 
         p {
-            font-size: 1em;
-            margin-bottom: 10px;
-        }
-
-        h2 {
-            font-size: 1.5em;
-            color: #2980b9;
-            margin-top: 20px;
-            border-bottom: 2px solid #2980b9;
-            padding-bottom: 5px;
-        }
-
-        .contact-info {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        .contact-info a {
-            color: #2980b9;
-            text-decoration: none;
-        }
-
-        .contact-info a:hover {
-            text-decoration: underline;
-        }
-
-        ul {
-            margin: 0;
-            padding: 0;
-            list-style-type: none;
-        }
-
-        li {
-            margin-bottom: 10px;
+            font-size: 14px;
+            line-height: 1.6;
         }
 
         .section {
             margin-bottom: 20px;
         }
 
-        .skills, .certifications, .achievements {
-            columns: 2;
-            column-gap: 20px;
+        .section-title {
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            font-size: 24px;
+            color: #2c3e50;
         }
 
-        .skills li, .certifications li, .achievements li {
-            margin-bottom: 5px;
+        .contact-info {
+            margin-bottom: 20px;
         }
 
-        .skills::before, .certifications::before, .achievements::before {
-            content: "•";
-            margin-right: 5px;
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        .skills-list, .certifications-list, .achievements-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills-list li, .certifications-list li, .achievements-list li {
+            background-color: #ecf0f1;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        a {
             color: #2980b9;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
+
 <body>
+
     <div class="container">
-        <h1>Sai Rohan Velpula</h1>
+        <h1>Velpula Sai Rohan</h1>
         <div class="contact-info">
-            <p>Phone: 9347109854 | Email: <a href="mailto:sairohan.velpula@gmail.com">sairohan.velpula@gmail.com</a> | Location: Hyderabad</p>
-            <p><a href="https://www.linkedin.com/in/sai-rohan-velpula-113207253/">LinkedIn Profile</a></p>
+            <p><strong>Phone:</strong> 9347109854</p>
+            <p><strong>Email:</strong> <a href="mailto:sairohan.velpula@gmail.com">sairohan.velpula@gmail.com</a></p>
+            <p><strong>Location:</strong> Hyderabad</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sai-rohan-velpula-113207253/" target="_blank">linkedin.com/in/sai-rohan-velpula-113207253/</a></p>
         </div>
 
         <div class="section">
-            <h2>Objective</h2>
+            <h2 class="section-title">Objective</h2>
             <p>A passionate student with a strong interest in cloud computing and full-stack web development. Seeking to leverage my skills and knowledge in these areas to contribute to innovative projects and gain hands-on experience in a dynamic work environment.</p>
         </div>
 
         <div class="section">
-            <h2>Education</h2>
-            <p><strong>Bachelor of Technology (B.Tech) in Computer Science and Engineering (CSE)</strong><br>
-            Anurag University, Hyderabad<br>
-            2022 - Present</p>
+            <h2 class="section-title">Education</h2>
+            <p><strong>Bachelor of Technology (B.Tech) in Computer Science and Engineering (CSE)</strong></p>
+            <p>Anurag University, Hyderabad</p>
+            <p>2022 - Present</p>
         </div>
 
         <div class="section">
-            <h2>Technical Skills</h2>
-            <ul class="skills">
-                <li>Programming Languages: Python, C, Java</li>
-                <li>Web Technologies: HTML, CSS, JavaScript</li>
-                <li>Cloud Services: AWS Certified</li>
-                <li>AI & Data Analysis: Microsoft Azure AI Document Analysis Certified</li>
-                <li>Problem Solving Skills</li>
+            <h2 class="section-title">Technical Skills</h2>
+            <ul class="skills-list">
+                <li><strong>Programming Languages:</strong> Python, C, Java</li>
+                <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript</li>
+                <li><strong>Cloud Technologies:</strong> AWS, Microsoft Azure</li>
+                <li><strong>Tools:</strong> Git, GitHub, MongoDB</li>
+                <li><strong>Skills:</strong> Problem Solving</li>
             </ul>
         </div>
 
         <div class="section">
-            <h2>Certifications</h2>
-            <ul class="certifications">
-                <li>AWS Certified</li>
+            <h2 class="section-title">Certifications</h2>
+            <ul class="certifications-list">
+                <li>AWS Certified Cloud Practitioner</li>
                 <li>Microsoft Azure AI Document Analysis Certified</li>
                 <li>Introduction to MongoDB Certified</li>
                 <li>Cisco Cybersecurity Introduction Certified</li>
@@ -129,17 +125,25 @@
         </div>
 
         <div class="section">
-            <h2>Achievements</h2>
-            <ul class="achievements">
-                <li>5-Star Rating in C and Python on HackerRank</li>
+            <h2 class="section-title">Internships</h2>
+            <p><strong>Agritech Internship (2023)</strong></p>
+            <p>Worked on cloud-based applications, contributing to the optimization of data analysis processes using AWS and Python.</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Achievements</h2>
+            <ul class="achievements-list">
+                <li>Achieved 5-Star Rating in C and Python on HackerRank</li>
                 <li>Solved 50+ Questions on LeetCode</li>
             </ul>
         </div>
 
         <div class="section">
-            <h2>Extra-Curricular Activities</h2>
-            <p>Admin of Meme Page (Managed and administered an Instagram account dedicated to memes)</p>
+            <h2 class="section-title">Extra-Curricular Activities</h2>
+            <p><strong>Admin of Meme Page (2023 - Present):</strong> Managed and grew an Instagram account dedicated to memes, demonstrating creativity, digital marketing, and social media management skills.</p>
         </div>
     </div>
+
 </body>
+
 </html>
